@@ -1,0 +1,22 @@
+{
+     
+    "name": "No History",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "description": "Deletes history from ALL time",
+    "icons":{
+        "128": "trashcan.png"
+    },
+
+    "permissions": [
+        "browsingData",
+        "history"
+    ],
+
+    "browser_action": {
+        "defult_title": "testing",
+        "default_popup": "Popup.html"
+    }
+
+}
